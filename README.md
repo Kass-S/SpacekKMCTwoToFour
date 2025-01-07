@@ -7,4 +7,5 @@ Creaded three endpoints each with their own controllers and services files.
 2. Accepts 2 inputs and displays them in one sentence.
 3. Accepts 2 numbers and displays two sentences stating which one is greater and less than.
 
-Reviewed by:
+Reviewed by: Trey
+comments: Great job! Everything works as intended.
