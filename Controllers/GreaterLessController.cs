@@ -19,9 +19,9 @@ namespace SpacekKMCTwoToFour.Controllers
         [HttpGet]
         [Route("Compare/{num1}/{num2}")]
 
-        public string GreaterLess(int num1, int num2)
+        public string GreaterLess(int firstNum, int secondNum)
         {
-            return _greaterLessServices.GreaterLess(num1, num2);
+            return _greaterLessServices.GreaterLess(firstNum, secondNum);
         }
     }
 }

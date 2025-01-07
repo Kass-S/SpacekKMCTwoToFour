@@ -7,18 +7,18 @@ namespace SpacekKMCTwoToFour.Services
 {
     public class GreaterLessServices
     {
-        public string GreaterLess(int num1, int num2)
+        public string GreaterLess(int firstNum, int secondNum)
         {
             string greaterLessStr = "";
-            if(num1 > num2)
+            if(firstNum > secondNum)
             {
-                greaterLessStr = $"{num1} is greater than {num2}. {num2} is less than {num1}.";
-            }else if(num1 < num2)
+                greaterLessStr = $"{firstNum} is greater than {secondNum}. {secondNum} is less than {firstNum}.";
+            }else if(firstNum< secondNum)
             {
-                greaterLessStr = $"{num2} is greater than {num1}. {num1} is less than {num2}.";
-            }else if(num1 == num2)
+                greaterLessStr = $"{secondNum} is greater than {firstNum}. {firstNum} is less than {secondNum}.";
+            }else if(firstNum == secondNum)
             {
-                greaterLessStr = $"{num1} and {num2} are equal.";
+                greaterLessStr = $"{firstNum} and {secondNum} are equal.";
             }
 
             return greaterLessStr;
